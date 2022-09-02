@@ -1,0 +1,23 @@
+{
+  "name": "objecter",
+  "version": "1.0.1",
+  "description": "",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mirismaili/objecter"
+  },
+  "license": "MIT",
+  "author": "S. Mahdi Mir-Ismaili <s.m.mirismaili@gmail.com>",
+  "type": "module",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16"
+  }
+}
