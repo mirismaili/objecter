@@ -1,6 +1,6 @@
 {
   "name": "objecter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "keywords": [],
   "repository": {
@@ -14,7 +14,12 @@
   "files": [
     "src"
   ],
-  "scripts": {},
+  "scripts": {
+    "patch-version": "npm version patch --no-git-tag-version",
+    "increase-minor-version": "npm version minor --no-git-tag-version",
+    "increase-major-version": "npm version major --no-git-tag-version",
+    "tag-this-version": "node -e \"require('child_process').execSync('git tag v' + require('./package.json').version)\""
+  },
   "dependencies": {},
   "devDependencies": {},
   "engines": {
